@@ -4,21 +4,32 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div
+      className="container-fluid"
+      style={{background: 'red', height: '100vh'}}
+    >
+      <div className="row">
+        <div
+          className="container"
+          style={{background: 'blue', height: '100vh'}}
         >
-          Learn React
-        </a>
-      </header>
+          {/* whole application goes here */}
+          <div className="row">
+            <nav
+              className="col-3"
+              style={{background: 'cyan', height: '100vh'}}
+            ></nav>
+            <main
+              className="col-6"
+              style={{background: 'yellow', height: '100vh'}}
+            ></main>
+            <aside
+              className="col-3"
+              style={{background: 'green', height: '100vh'}}
+            ></aside>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
