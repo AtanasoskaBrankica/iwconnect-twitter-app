@@ -1,31 +1,51 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from '../../../components/Button/Button';
-
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faHouse} from '@fortawesome/free-solid-svg-icons';
+import {faHashtag} from '@fortawesome/free-solid-svg-icons';
+import {faBell} from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faBookmark} from '@fortawesome/free-solid-svg-icons';
+import {faList} from '@fortawesome/free-solid-svg-icons';
+import {faUser} from '@fortawesome/free-solid-svg-icons';
+import {faCircleChevronDown} from '@fortawesome/free-solid-svg-icons';
 import {NavLink} from '../../../components/NavLink/NavLink';
 
 export const NavBar = () => {
   return (
     <Styled.Container className="col-3">
-      <NavLink text="Home" icon={<i className="fa-solid fa-house"></i>} />
-      <NavLink text="Explore" icon={<i className="fa-solid fa-hashtag"></i>} />
+      <NavLink
+        text="Home"
+        icon={<FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>}
+      />
+      <NavLink
+        text="Explore"
+        icon={<FontAwesomeIcon icon={faHashtag}></FontAwesomeIcon>}
+      />
       <NavLink
         text="Notifications"
-        icon={<i className="fa-solid fa-bell"></i>}
+        icon={<FontAwesomeIcon icon={faBell}></FontAwesomeIcon>}
       />
       <NavLink
         text="Messages"
-        icon={<i className="fa-solid fa-envelope"></i>}
+        icon={<FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>}
       />
       <NavLink
         text="Bookmarks"
-        icon={<i className="fa-solid fa-bookmark"></i>}
+        icon={<FontAwesomeIcon icon={faBookmark}></FontAwesomeIcon>}
       />
-      <NavLink text="Lists" icon={<i className="fa-solid fa-list"></i>} />
-      <NavLink text="Profile" icon={<i className="fa-solid fa-user"></i>} />
+      <NavLink
+        text="Lists"
+        icon={<FontAwesomeIcon icon={faList}></FontAwesomeIcon>}
+      />
+      <NavLink
+        text="Profile"
+        icon={<FontAwesomeIcon icon={faUser}></FontAwesomeIcon>}
+      />
       <NavLink
         text="More"
-        icon={<i className="fa-solid fa-circle-chevron-down"></i>}
+        icon={<FontAwesomeIcon icon={faCircleChevronDown}></FontAwesomeIcon>}
       />
       <Button name="Tweet" backgroundColor="#26a7de" textColor="white"></Button>
     </Styled.Container>
