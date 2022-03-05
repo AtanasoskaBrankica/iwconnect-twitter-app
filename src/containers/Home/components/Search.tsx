@@ -4,6 +4,8 @@ import {PeopleToFollow} from '../../../components/PeopleToFollow/PeopleToFollow'
 import {ShowMore} from '../../../components/ShowMore/ShowMore';
 import {TitleTopic} from '../../../components/TitleTopic/TitleTopic';
 import {Topic} from '../../../components/Topic/Topic';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGear} from '@fortawesome/free-solid-svg-icons';
 
 export const Search = () => {
   return (
@@ -11,7 +13,7 @@ export const Search = () => {
       <Styled.WrapperOne>
         <TitleTopic
           title="Topics for you"
-          icon={<i className="fa-solid fa-gear"></i>}
+          icon={<FontAwesomeIcon icon={faGear}></FontAwesomeIcon>}
         />
         <Topic
           description="Trending in USA"
