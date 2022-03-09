@@ -7,6 +7,7 @@ export const Search = () => {
       style={{
         background: 'black',
         height: '100vh',
+        borderLeft: '1px solid white',
       }}
     ></aside>
   );
