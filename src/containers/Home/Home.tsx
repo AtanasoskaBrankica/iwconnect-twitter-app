@@ -1,7 +1,7 @@
 import React from 'react';
-import {Main} from './components/Main';
-import {NavBar} from './components/NavBar';
-import {Search} from './components/Search';
+import {NavBar} from '../NavBar/NavBar';
+import {Search} from '../Search/Search';
+import {Main} from './components/Main/Main';
 
 export const Home = () => {
   return (

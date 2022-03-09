@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 interface Props {
   text: string;
-  icon?: JSX.Element;
+  icon: JSX.Element;
 }
 
 export const NavLink = ({icon, text}: Props) => {
