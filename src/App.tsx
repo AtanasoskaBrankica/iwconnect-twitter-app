@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Home} from './containers/Home/Home';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="row">
         <div className="container" style={{background: 'black'}}>
           {/* whole application goes here */}
+          <Home />
         </div>
       </div>
     </div>
