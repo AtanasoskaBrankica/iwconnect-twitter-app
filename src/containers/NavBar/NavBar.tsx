@@ -7,7 +7,6 @@ export const NavBar = () => {
       style={{
         background: 'black',
         height: '100vh',
-        borderRight: '1px solid white',
       }}
     ></nav>
   );
