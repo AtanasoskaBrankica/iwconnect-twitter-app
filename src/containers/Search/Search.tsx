@@ -64,6 +64,7 @@ const Styled = {
   Container: styled.aside`
     background: black;
     height: 100vh;
+    border-left: 1px solid white;
   `,
   WrapperOne: styled.div`
     background: #141f27;
