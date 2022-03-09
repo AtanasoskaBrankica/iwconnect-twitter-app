@@ -4,7 +4,7 @@ export const Main = () => {
   return (
     <main
       className="col-6"
-      style={{background: 'black', height: '100vh'}}
+      style={{background: 'yellow', height: '100vh'}}
     ></main>
   );
 };

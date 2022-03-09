@@ -5,7 +5,7 @@ export const NavBar = () => {
     <nav
       className="col-3"
       style={{
-        background: 'black',
+        background: 'cyan',
         height: '100vh',
       }}
     ></nav>

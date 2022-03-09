@@ -5,9 +5,8 @@ export const Search = () => {
     <aside
       className="col-3"
       style={{
-        background: 'black',
+        background: 'green',
         height: '100vh',
-        borderLeft: '1px solid white',
       }}
     ></aside>
   );
