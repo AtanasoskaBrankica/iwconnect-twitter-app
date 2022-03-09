@@ -56,6 +56,6 @@ const Styled = {
   Container: styled.nav`
     background: black;
     height: 100vh;
-    border-right: '1px solid white';
+    border-right: 1px solid white;
   `,
 };
